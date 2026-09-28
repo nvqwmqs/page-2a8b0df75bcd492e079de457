@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "64370c7e44c9c2e7cd8afa7e",
+  "owner": "nvqwmqs",
+  "repo": "page-2a8b0df75bcd492e079de457",
+  "title": "青云梯",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "2a8b0df75bcd492e079de457",
+      "a": "青云梯",
+      "b": "",
+      "entity": "青云梯",
+      "brand": "青云梯",
+      "separator": "",
+      "path": "index.html",
+      "hash": "9a7cd941289e82fc16b963d4d7f316d33de2c64363f5507a6d16b97b15612248",
+      "content": {
+        "keyword1": "青云梯",
+        "keyword2": "",
+        "primary_entity": "青云梯",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "青云梯提供稳定VPN加速服务，支持机场订阅及客户端下载。",
+          "AI_DESCRIPTION": "青云梯提供稳定VPN加速服务，支持机场订阅及客户端下载。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n\n\n\n\n\n\n\n<style>\n  * { box-sizing: border-box; }\n  body {\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n    background: linear-gradient(to bottom, #0a2540, #1e3a5f);\n    color: #e0f7ff;\n    line-height: 1.6;\n    margin: 0;\n    padding: 0;\n  }\n  header {\n    background: #112a4a;\n    padding: 20px;\n    text-align: center;\n  }\n  h1 {\n    font-size: 2.5rem;\n    color: #00d4ff;\n    margin: 0;\n  }\n  nav {\n    display: flex;\n    justify-content: center;\n    gap: 20px;\n    margin: 10px 0;\n  }\n  nav a {\n    color: #00d4ff;\n    text-decoration: none;\n    font-size: 1rem;\n  }\n  nav a:hover {\n    text-decoration: underline;\n  }\n  main {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n  }\n  section {\n    margin-bottom: 40px;\n  }\n  .card {\n    background: #112a4a;\n    border-radius: 15px;\n    padding: 25px;\n    margin-bottom: 20px;\n    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);\n    transition: transform 0.3s;\n  }\n  .card:hover {\n    transform: translateY(-5px);\n  }\n  .card h2 {\n    color: #00d4ff;\n    border-bottom: 2px solid #00d4ff;\n    padding-bottom: 10px;\n  }\n  .grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n    gap: 20px;\n  }\n  @media (max-width: 768px) {\n    h1 { font-size: 2rem; }\n  }\n  .plans-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n    gap: 15px;\n  }\n  .plan-card {\n    background: #1e3a5f;\n    border-radius: 12px;\n    padding: 20px;\n    text-align: center;\n  }\n  .plan-card h3 { color: #00d4ff; }\n  .faq {\n    background: #112a4a;\n    border-radius: 12px;\n    overflow: hidden;\n  }\n  .faq summary {\n    padding: 20px;\n    font-weight: bold;\n    cursor: pointer;\n    list-style: none;\n    background: #1e3a5f;\n    color: #00d4ff;\n  }\n  .faq details {\n    padding: 0 20px 20px;\n    background: #0a2540;\n  }\n</style>\n\n\n<header>\n<nav>\n<a href=\"#plans\">套餐对比</a>\n<a href=\"#about\">品牌简介</a>\n<a href=\"#usage\">使用场景</a>\n<a href=\"#faq\">常见问题</a>\n</nav>\n<h1>青云梯</h1>\n<p>稳定VPN加速器，助力您畅享全球网络</p>\n</header>\n<main>\n<section id=\"about\">\n<h2>品牌简介</h2>\n<p>青云梯是一款专注于网络加速与VPN服务的品牌，提供高效稳定的连接体验。无论您是需要科学上网还是国际业务加速，都能获得可靠保障。</p>\n</section>\n<section id=\"usage\">\n<h2>使用场景</h2>\n<p>青云梯适用于日常上网需求、远程办公、内容创作以及跨国团队协作等多种场景。通过先进的加速技术，帮助您突破网络限制，获得顺畅的国际访问体验。</p>\n</section>\n<section id=\"plans\">\n<h2>套餐对比</h2>\n<div class=\"plans-grid\">\n{{PLANS_HTML}}\n</div>\n</section>\n<section id=\"clients\">\n<h2>客户端下载</h2>\n<div class=\"grid\">\n{{CLIENTS_HTML}}\n</div>\n<p>更多信息请参考官网下载页面。</p>\n</section>\n<section id=\"faq\">\n<h2>常见问题</h2>\n<div class=\"faq\">\n<details>\n<summary>什么是青云梯？</summary>\n青云梯是一款专业的VPN网络加速工具，旨在帮助用户获得稳定高效的网络连接体验。\n</details>\n<details>\n<summary>如何注册账号？</summary>\n您可以在官网上注册一个账号，并完成身份验证，即可开始使用服务。\n</details>\n<details>\n<summary>支持哪些操作系统？</summary>\n青云梯支持Windows、macOS、Android、iOS及Linux等多种主流平台。\n</details>\n<details>\n<summary>套餐有哪些类型？</summary>\n我们提供基础、标准和高级等多档套餐供您选择。\n</details>\n<details>\n<summary>如何获取技术支持？</summary>\n在套餐内包含24小时在线客服支持，可通过网站聊天或邮件获取帮助。\n</details>\n</div>\n</section>\n</main>\n<footer>\n© 2024 青云梯。所有权利保留。\n</footer>\n\n",
+          "hash": "90589f48903a0c91ac746bfed81b13528e42eef1ba7a4514e7ca1f602822ab22",
+          "seo": {
+            "title": "青云梯 | 稳定VPN加速器 | 机场订阅与客户端下载",
+            "keywords": "青云梯, VPN, 机场, 加速器, 客户端下载, 套餐",
+            "description": "青云梯提供稳定VPN加速服务，支持机场订阅及客户端下载。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "mdfkfsv.cn",
+    "host": "zh.mdfkfsv.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804"
+  },
+  "friendlinks": [
+    {
+      "host": "mdfkfsv.cn",
+      "url": "https://mdfkfsv.cn/",
+      "label": "GOOGO",
+      "apex": "mdfkfsv.cn",
+      "kind": null,
+      "identity": "qqeeuqvba/page-82ed93568d3b7d7a3aa36c19"
+    },
+    {
+      "host": "00ah6.cn",
+      "url": "https://00ah6.cn/",
+      "label": "SSHUB",
+      "apex": "00ah6.cn",
+      "kind": null,
+      "identity": "erjwrgjj/page-6141714b7a0f264666643c94"
+    },
+    {
+      "host": "01kmph.cn",
+      "url": "https://01kmph.cn/",
+      "label": "WeGo",
+      "apex": "01kmph.cn",
+      "kind": null,
+      "identity": "wbwftxwku/page-680ee6fa2562d6d22ba5a121"
+    }
+  ],
+  "file_hashes": {
+    "index.html": "77225fe31a5405574c757ff83c6090d24a69f6d851e8e0312bbcc6187bb94c5a",
+    "sitemap.xml": "aebe0602f7f94dbec76afc28e117e34a8703ab4b4b1f07590b177591f2452a65",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "9fbba619bd7b91e782e5eeace527ac3f101f957cb1d86cdabaad3f3626e1ce65",
+    "robots.txt": "d61f1e15e1e22e18a7c4698a64bf4a20f8fd952abb924cc8d1b4529e423ef9fa",
+    "eda706f7df15778dc0901b590ba8d988.txt": "f0400857ca45fabc44201e6b7fbb1620d9bf61c1f01333cf33a1f8fc9a4b5266"
+  },
+  "revision": "706a11c9db1bcf0a5b63d1307def8c6c3857e9a6326980cdbad8b6b537c5b2e3"
+}
